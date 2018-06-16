@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="harry8242"
+          fetch="https://github.com/harry8242" />
+
+  <!-- Removals -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+
+  <!-- Additions -->
+  <project path="frameworks/base" name="frameworks_base" remote="harry8242" revision="lineage-15.1" />
+  <project path="packages/apps/LineageParts" name="lineage_15.1" remote="harry8242" revision="packages_apps_LineageParts" />
+  <project path="device/qcom/common" name="lineageos/android_device_qcom_common" remote="github" revision="lineage-15.1" /> 
+
+</manifest>
