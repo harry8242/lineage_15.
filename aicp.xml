@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="harry8242"
+          fetch="https://github.com/harry8242" />
+
+  <!-- Removals -->
+  <remove-project name="AICP/frameworks_base" />
+
+  <!-- Additions -->
+  <project path="frameworks/base" name="frameworks_base" remote="harry8242" revision="o8.1" />
+
+</manifest>
