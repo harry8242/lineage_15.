@@ -5,6 +5,9 @@
         fetch="https://github.com/harry8242/" />
 <remote name="lineageos"
         fetch="https://github.com/lineageos/" />
+<remote name="muppets"
+        fetch="https://github.com/themuppets/" />
+
 		
 <remove-project name="LineageOS/android_build"/>
 <remove-project name="LineageOS/android_frameworks_base"/>
@@ -31,8 +34,10 @@
 
 <!-- device repos -->
 
-<project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" revision="lineage-16.0" remote="lineageos"/>
+<project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" revision="lineage-16.0" remote="harry8242"/>
 <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" revision="lineage-16.0" remote="harry8242"/>
 <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" revision="lineage-16.0" remote="harry8242"/>
+<project path-"vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="lineage-16.0" remote="muppets" />
 <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-16.0" remote="lineageos"/>
+
 </manifest>
